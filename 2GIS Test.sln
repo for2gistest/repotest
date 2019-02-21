@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2GIS Test", "2GIS Test\2GIS Test.csproj", "{88F50F0D-054C-44D1-86AF-AF09E01B9AC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2GIS Test.Tests", "2GIS Test.Tests\2GIS Test.Tests.csproj", "{D1B1772B-0ECC-47C2-894D-C9F876156092}"
+	ProjectSection(ProjectDependencies) = postProject
+		{88F50F0D-054C-44D1-86AF-AF09E01B9AC0} = {88F50F0D-054C-44D1-86AF-AF09E01B9AC0}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88F50F0D-054C-44D1-86AF-AF09E01B9AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F50F0D-054C-44D1-86AF-AF09E01B9AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F50F0D-054C-44D1-86AF-AF09E01B9AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F50F0D-054C-44D1-86AF-AF09E01B9AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B1772B-0ECC-47C2-894D-C9F876156092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B1772B-0ECC-47C2-894D-C9F876156092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B1772B-0ECC-47C2-894D-C9F876156092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B1772B-0ECC-47C2-894D-C9F876156092}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7B1E30F-CE9E-4FD2-A48F-C098F4DC5F95}
+	EndGlobalSection
+EndGlobal
